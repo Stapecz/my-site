@@ -1,0 +1,165 @@
+/*css- язык таблицы стилей*/
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 300 to 800 */
+
+html {
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+   background-image: linear-gradient(rgb(226, 226, 226), rgb(109, 106, 106));
+}
+  /* background-image: linear-gradient(black, white);
+background-image: url("../images/main.jpeg");
+background-attachment: fixed; */
+/* main {
+    margin-left: 10%;
+} */
+header {
+    /* margin-left: 10%; */
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap ;
+}
+header img {
+    padding-left: 50px; 
+    display: block;
+    height: 60px;
+    padding-top: 20.15px;
+    justify-content: flex-end;
+}
+nav {
+    padding: 30px 2px 0px 2px;
+    height: 50px;
+     /* flex: 100%;  */
+    /* display: flex; */
+    
+}
+form {
+    padding-top: 50px;
+}
+nav ul {
+    padding-left:  50px;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+}
+nav li {
+    
+    font-size: large;
+    display: inline;
+    text-align: center;
+    flex: 1;
+    /* transition: 100ms; */
+    
+
+}
+nav li:hover {
+    transform: scale(1.07);
+    
+}
+
+/* .gain-center-loweffect {
+    /* transition: 200ms; */
+  
+/* .gain-center-loweffect:hover {
+    transform: scale(1.03);
+} */ 
+
+
+/* .main-screen {
+    /* background-color: grey; 
+    text-align: left;
+} */
+/* #studio-main {
+    width: 60% ;
+    margin-right: 40% ;
+    max-width: 100% ;
+    height: auto;
+    
+} */
+ aside {
+    margin-right: 2.5%;
+ }
+body {
+    padding-left: 7%;
+    margin: 20px;
+    /* background-color: #e7e4de; */
+    /* padding: 0 1px 20px 20px; */
+    /* border: 3px double saddlebrown; */
+    max-width: 100%;
+}
+
+
+h1 {
+    padding: 30px 0 0 20px;
+    color:rgb(163, 112, 173);
+    text-shadow: 1px 1px 1px gray;
+    }
+
+
+
+/*
+    p,
+li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+    */
+#my-id {
+    font-size: 24px;
+    color:rgb(49, 99, 148)
+}
+a {
+    color:rgb(4, 163, 163)
+}
+
+#name-mail-question { 
+    display: inline-block; 
+    justify-content: flex-end;
+    max-width: 100%;
+    margin-left: 65%;
+    margin-right: auto;
+    vertical-align: top;
+    outline: 3px dotted grey;
+    outline-offset: 2px;
+    
+}
+
+
+
+.row-box {
+    position: relative;
+}
+.box {
+    display: block;
+    width: 55%;
+    position: relative;
+}
+.box img {
+    width: 100%;
+    height: 100%;
+    object-position: 50% 50%;
+    object-fit: cover;
+    padding: 1% 0;
+}
+.box:nth-child(1) {
+    clip-path: polygon(0 0, 97% 0, 82% 100%, 0 100%);
+}
+.box:nth-child(2) {
+    clip-path: polygon(18% 0, 100% 0, 100% 100%, 3% 100%);
+    left: 45%;
+    position: absolute;
+    top: 0;
+}
+.box:nth-child(3) {
+    clip-path: polygon(0 0, 82% 0, 97% 100%, 0 100%);      
+}
+.box:nth-child(4) {
+    clip-path: polygon(3% 0, 100% 0, 100% 100%, 18% 100%);
+    left: 45%;        
+    position: absolute;
+    top: 57%;             
+}
